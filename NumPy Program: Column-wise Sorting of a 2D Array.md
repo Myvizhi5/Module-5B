@@ -14,14 +14,8 @@ To write a **NumPy** program that sorts the elements in each column of a given 2
 ## 🧾 Program
 ```
 import numpy as np
-
-# Example: define a 2D NumPy array
 arr = np.array([[3, 1, 5], [4, 7, 2], [9, 6, 8]])
-
-# Sort the array column-wise (ascending order)
 sorted_arr = np.sort(arr, axis=0)
-
-# Display original and sorted arrays
 print("Original Array:")
 print(arr)
 print("\nColumn-wise Sorted Array:")
