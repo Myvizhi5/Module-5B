@@ -15,15 +15,9 @@ To write a Python program using **NumPy** that finds the indices where elements 
 ## 🧾 Program
 ```
 import numpy as np
-
-# Define two NumPy arrays
 x = np.array([3, 5, 7, 9, 2])
 y = np.array([1, 5, 6, 9, 3])
-
-# Find indices where x >= y
 indices = np.where(x >= y)
-
-# Print the indices
 print("Indices where x >= y:", indices[0])
 ```
 ## Output
